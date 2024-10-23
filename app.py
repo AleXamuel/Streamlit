@@ -4,7 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # Leer el archivo CSV
-df = pd.read_csv("C:/Users/barre/OneDrive/Documents/Clases/Gobierno de datos/saber_11.csv")
+df = pd.read_csv("saber_11.csv")
 
 # Seleccionar categorías específicas de la variable 'ESTU_DEPTO_RESIDE'
 categorias_seleccionadas = ['CAUCA', 'AMAZONAS', 'CAQUETA', 'VAUPES', 'VICHADA', 'MAGDALENA', 'CUNDINAMARCA']
